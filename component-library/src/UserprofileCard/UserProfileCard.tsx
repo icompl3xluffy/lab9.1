@@ -1,4 +1,4 @@
-import type{ UserProfileCardProps, User } from "../types"
+import type{ UserProfileCardProps} from "../types"
 
 
 export const UserProfileCard: React.FC<UserProfileCardProps> = ({
