@@ -1,20 +1,5 @@
-import type{ UserProfileCardProps,User } from "../types"
+import type{ UserProfileCardProps, User } from "../types"
 
-
-export function UserProfileCard(props: UserProfileCardProps){
-
-    return(
-        <>
-        {props.user.id}
-        {props.user.name}
-        {props.user.email}
-        {props.user.role}
-        {props.user.avatarUrl}
-        
-        </>
-
-    )
-}
 
 export const UserProfileCard: React.FC<UserProfileCardProps> = ({
   user, showEmail, showRole, onEdit, children,
