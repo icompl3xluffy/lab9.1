@@ -4,4 +4,4 @@ I used thm as as an attribute in the component.
 How did you ensure type safety across your components?
 I made sure  by using TS.Made sure the types  matched and when importing the interface as well i added type due to it being an object being imported. 
 What challenges did you face when implementing component composition?
-i had trouble figuring out where everything was supposed to be. Arranging the information using import and getting errors and having to re arrange. i had difficulty with the code.
+i had trouble figuring out where everything was supposed to be. Arranging the information using import and getting errors and having to re arrange. I had difficulty with the code. and figuring out what needed to be added or changed.  and understanding destructuring whether to use them individually or as a whole in the parameter. 
